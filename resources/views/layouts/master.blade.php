@@ -6,11 +6,18 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap-custom.min.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Menu Principal</title>
+    <title>Sistema: Proyecto Medicina</title>
 </head>
 
 <body>
-    
+    <div class="container-fluid">
+        <div class="row bg-dark text-white">
+            <div class="col-1 text-end d-none d-lg-block">
+                <a href="/login" class="text-white">Cerrar Sesión</a>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
@@ -27,28 +34,7 @@
                             aria-current="page" href="{{route('home.index')}}">Inicio</a>
                         </li>
                         
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Configuración
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark bg-primary">
-                                <li><a class="dropdown-item" href="#">Cambiar Contraseña</a></li>
-                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                
-                            </ul>
-                        </li>
-                        
-
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">Buscar</button>
-                    </form>
                 </div>
             </div>
         </nav>

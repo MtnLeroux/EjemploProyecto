@@ -33,11 +33,11 @@
                         <small>Proporcione sus credenciales para ingresar al Sistema</small>
                         <div class="card">
                             <div class="card-body">
-                                <form method="POST" action="{{route('usuarios.login')}}">
+                                <form method="GET" action="{{route('home.index')}}">
                                     @csrf
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="text" id="email" name="email" class="form-control" value="{{ old('email') }}">
                                     </div>
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Contraseña</label>
@@ -49,11 +49,12 @@
                                     </div>
                                     <div class="mb-3 text-end">
                                         <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        @if ($errors->any())
+                        <!--@if ($errors->any())
                         <div class="alert alert-warning">
                             <ul>
                                 @foreach ($errors->all() as $error)
@@ -61,7 +62,7 @@
                                 @endforeach
                             </ul>
                         </div>
-                        @endif
+                        @endif-->
                     </div>
                     <!-- / FIN Formulario -->
                 </div>
