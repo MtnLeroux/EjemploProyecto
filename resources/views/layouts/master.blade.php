@@ -39,7 +39,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="https://www.usm.cl">UTFSM</a></li>
+                                
                             </ul>
                         </li>
                         

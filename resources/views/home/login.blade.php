@@ -22,7 +22,7 @@
                             <img src="{{ asset('images/cruz.png') }}" style="width: 7rem;">
                         </div>
                         <h4 class="text-light">Sistema de Centro Médico</h4>
-                        <h4 class="text-light">Proyecto Medicina Quilpue</h4>
+                        <h4 class="text-light">Proyecto Medicina Valparaiso</h4>
                     </div>
                     <!-- / FIN titulo y logo -->
 
@@ -42,6 +42,10 @@
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Contraseña</label>
                                         <input type="password" id="password" name="password" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label">Nombre</label>
+                                        <input type="text" id="nombre" name="nombre" class="form-control">
                                     </div>
                                     <div class="mb-3 text-end">
                                         <button type="submit" class="btn btn-success">Iniciar Sesión</button>
