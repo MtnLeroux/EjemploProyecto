@@ -17,6 +17,9 @@
           <div class="card-body">
             <h5 class="card-title">Inventario</h5>
             <p class="card-text">Administra y consulta el inventario del centro de salud.</p>
+              <div class="bg-white p-2 mb-3 rounded">
+                <img src="{{ asset('images/gear.png') }}" style="width: 7rem;">
+              </div>
             <a href="{{route('inventario.index')}}" class="btn btn-primary">Ir a Inventario</a>
           </div>
         </div>
@@ -26,6 +29,9 @@
           <div class="card-body">
             <h5 class="card-title">Datos del Paciente</h5>
             <p class="card-text">Registra y consulta los datos de los pacientes.</p>
+              <div class="bg-white p-2 mb-3 rounded">
+                <img src="{{ asset('images/patient.png') }}" style="width: 7rem;">
+              </div>
             <a href="{{route('pacientes.index')}}" class="btn btn-primary">Ir a Datos del Paciente</a>
           </div>
         </div>
@@ -35,6 +41,9 @@
           <div class="card-body">
             <h5 class="card-title">Datos del Especialista</h5>
             <p class="card-text">Registra y consulta los datos de los especialistas.</p>
+              <div class="bg-white p-2 mb-3 rounded">
+                <img src="{{ asset('images/teamwork.png') }}" style="width: 7rem;">
+              </div>
             <a href="{{route('especialistas.index')}}" class="btn btn-primary">Ir a Datos del Especialista</a>
           </div>
         </div>

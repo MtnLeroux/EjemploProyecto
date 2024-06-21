@@ -16,8 +16,7 @@
             <div class="col-12 col-lg-8 offset-lg-2">
                 <div class="row bg-light" style="height: 25rem;">
                     <!-- titulo y logo -->
-                    <div
-                        class="col-lg-4 bg-primary d-flex flex-column justify-content-center align-items-center text-center">
+                    <div class="col-lg-4 bg-primary d-flex flex-column justify-content-center align-items-center text-center">
                         <div class="bg-white p-2 mb-3 rounded">
                             <img src="{{ asset('images/cruz.png') }}" style="width: 7rem;">
                         </div>
